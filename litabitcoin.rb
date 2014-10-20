@@ -10,7 +10,7 @@ module Lita
       })
  
       def reply_btc(response)
-	response.reply "btce: L: #{value('last')} - H: #{value('high')} - L: #{value('low')}"
+	response.reply "bitstamp: L: $#{value('last')} - H: $#{value('high')} - L: $#{value('low')}"
       end
  
       private
